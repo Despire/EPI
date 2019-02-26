@@ -27,5 +27,5 @@ Chapter 5 - Arrays
 | Compute rows in Pascal’s Triangle                                 	   |		      |         |
 
 
-[1] arrays/dutchflagproblem.go
-[2] arrays/dutchflagproblem_test.go
+[1]: arrays/dutchflagproblem.go
+[2]: arrays/dutchflagproblem_test.go
