@@ -6,7 +6,7 @@ Chapter 5 - Arrays
 | Problem                                                                  | Test         | Solved  |
 |--------------------------------------------------------------------------|:------------:|:-------:|
 | [The Dutch national flag problem][1]                                     |  [Tests][2]  |    ✓    |
-| Increment an arbitrary-precision integer[3]                         	   |  [Tests][4]  |    ✓    |
+| [Increment an arbitrary-precision integer][3]                         	   |  [Tests][4]  |    ✓    |
 | Multiply two arbitrary-precision integers           	                   |              |         |
 | Advancing through an array                                               |              |         |
 | Delete duplicates from a sorted array                                    |              |         |   
