@@ -19,7 +19,7 @@ func TestIncrement(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		got := increment(test.in)
+		got := Increment(test.in)
 		if !reflect.DeepEqual(got, test.want) {
 			t.Errorf("want %v; got %v", test.want, got)
 		}

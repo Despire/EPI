@@ -5,7 +5,7 @@ package arrays
 // equal to the pivot and elements which are greater than the pivot
 // appears as last.
 // The pivot is selected as elems[i].
-func partition(elems []int, i int) (int, int) {
+func Partition(elems []int, i int) (int, int) {
 	// paritions the slice in O(n) time.
 	// such that elems[0:s] contains all elements that are '<p'
 	// elems[s:g] contains all elements that are '=p'

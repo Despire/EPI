@@ -20,7 +20,7 @@ func TestPartition(t *testing.T) {
 
 	for _, test := range tests {
 		got := test.in
-		e1, e2 := partition(got[:], test.i)
+		e1, e2 := Partition(got[:], test.i)
 
 		if !reflect.DeepEqual(got, test.want) {
 			t.Errorf("want %v; got %v", test.want, got)

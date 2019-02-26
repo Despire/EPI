@@ -6,9 +6,9 @@ Chapter 5 - Arrays
 | Problem                                                                  | Test         | Solved  |
 |--------------------------------------------------------------------------|:------------:|:-------:|
 | [The Dutch national flag problem][1]                                     |  [Tests][2]  |    ✓    |
-| [Increment an arbitrary-precision integer][3]                         	   |  [Tests][4]  |    ✓    |
+| [Increment an arbitrary-precision integer][3]                            |  [Tests][4]  |    ✓    |
 | Multiply two arbitrary-precision integers           	                   |              |         |
-| Advancing through an array                                               |              |         |
+| [Advancing through an array][5]                                          |  [Tests][6]  |    ✓    |
 | Delete duplicates from a sorted array                                    |              |         |   
 | Buy and sell a stock once       		        	                       |              |         |
 | Buy and sell a stock twice                                         	   |		      |         |
@@ -31,3 +31,6 @@ Chapter 5 - Arrays
 
 [3]: arrays/incrementinteger.go
 [4]: arrays/incrementinteger_test.go
+
+[5]: arrays/advance.go
+[6]: arrays/advance_test.go
