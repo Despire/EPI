@@ -5,7 +5,7 @@ Chapter 5 - Arrays
 
 | Problem                                                                  | Test         | Solved  |
 |--------------------------------------------------------------------------|:------------:|:-------:|
-| The Dutch national flag problem                                  	       |              |         |
+| [The Dutch national flag problem][1]                                     |  [Tests][2]  |         |
 | Increment an arbitrary-precision integer                         	       |              |         |
 | Multiply two arbitrary-precision integers           	                   |              |         |
 | Advancing through an array                                               |              |         |
@@ -25,3 +25,7 @@ Chapter 5 - Arrays
 | Compute the spiral ordering of a 2D array                          	   |              |         |
 | Rotate a 2D array                                                        |              |         |
 | Compute rows in Pascal’s Triangle                                 	   |		      |         |
+
+
+[1] arrays/dutchflagproblem.go
+[2] arrays/dutchflagproblem_test.go
