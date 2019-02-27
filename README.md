@@ -10,7 +10,7 @@ Chapter 5 - Arrays
 | Multiply two arbitrary-precision integers           	                   |              |         |
 | [Advancing through an array][5]                                          |  [Tests][6]  |    ✓    |
 | [Delete duplicates from a sorted array][7]                               |  [Tests][8]  |    ✓    |   
-| Buy and sell a stock once       		        	                       |              |         |
+| [Buy and sell a stock once][9]       		        	                   |  [Tests][10] |    ✓    |
 | Buy and sell a stock twice                                         	   |		      |         |
 | Computing an alternation           			                           |              |         |
 | Enumerate all primes to n                                        	       |              |         |
@@ -37,3 +37,6 @@ Chapter 5 - Arrays
 
 [7]: arrays/duplicates.go
 [8]: arrays/duplicates_test.go
+
+[9]: arrays/buyonce.go
+[10]: arrays/buyonce_test.go
