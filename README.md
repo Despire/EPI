@@ -9,7 +9,7 @@ Chapter 5 - Arrays
 | [Increment an arbitrary-precision integer][3]                            |  [Tests][4]  |    ✓    |
 | Multiply two arbitrary-precision integers           	                   |              |         |
 | [Advancing through an array][5]                                          |  [Tests][6]  |    ✓    |
-| Delete duplicates from a sorted array                                    |              |         |   
+| [Delete duplicates from a sorted array][7]                               |  [Tests][8]  |    ✓    |   
 | Buy and sell a stock once       		        	                       |              |         |
 | Buy and sell a stock twice                                         	   |		      |         |
 | Computing an alternation           			                           |              |         |
@@ -34,3 +34,6 @@ Chapter 5 - Arrays
 
 [5]: arrays/advance.go
 [6]: arrays/advance_test.go
+
+[7]: arrays/duplicates.go
+[8]: arrays/duplicates_test.go
