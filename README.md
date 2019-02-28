@@ -12,7 +12,7 @@ Chapter 5 - Arrays
 | [Delete duplicates from a sorted array][7]                               |  [Tests][8]  |    ✓    |   
 | [Buy and sell a stock once][9]       		        	                   |  [Tests][10] |    ✓    |
 | Buy and sell a stock twice                                         	   |		      |         |
-| Computing an alternation           			                           |              |         |
+| [Computing an alternation][11]           			                       |  [Tests][12] |    ✓    |
 | Enumerate all primes to n                                        	       |              |         |
 | Permute the elements of an array                                   	   |		      |         |
 | Compute the next permutation                                       	   |		      |         |
@@ -40,3 +40,6 @@ Chapter 5 - Arrays
 
 [9]: arrays/buyonce.go
 [10]: arrays/buyonce_test.go
+
+[11]: arrays/alternation.go
+[12]: arrays/alternation_test.go

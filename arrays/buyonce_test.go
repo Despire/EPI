@@ -3,8 +3,8 @@ package arrays
 import "testing"
 
 func TestBuyAndSellStockOnce(t *testing.T) {
-	tests := []struct{
-		in []int
+	tests := []struct {
+		in   []int
 		want int
 	}{
 		{[]int{310, 315, 275, 295, 260, 270, 290, 230, 255, 250}, 30},
