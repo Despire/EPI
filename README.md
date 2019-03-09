@@ -14,7 +14,7 @@ Chapter 5 - Arrays
 | Buy and sell a stock twice                                         	   |		      |         |
 | [Computing an alternation][11]           			                       |  [Tests][12] |    ✓    |
 | [Enumerate all primes to n][13]                                          |  [Tests][14] |    ✓    |
-| Permute the elements of an array                                   	   |		      |         |
+| [Permute the elements of an array][15]                                   |  [Tests][16] |    ✓    |
 | Compute the next permutation                                       	   |		      |         |
 | Sample offline data                                                      |              |         |
 | Sample online data                                                 	   |		      |         |
@@ -46,3 +46,6 @@ Chapter 5 - Arrays
 
 [13]: arrays/primes.go
 [14]: arrays/primes_test.go
+
+[15]: arrays/permutation.go
+[16]: arrays/permutation_test.go
