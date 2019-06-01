@@ -23,7 +23,7 @@ Chapter 5 - Arrays
 | Generate nonuniform random numbers                                	   |		  |         |
 | The Sudoku checker problem                                        	   |		  |         |
 | [Compute the spiral ordering of a 2D array][19]                          |  [Tests][20] |    ✓    |
-| Rotate a 2D array                                                        |              |         |
+| [Rotate a 2D array][21]                                                  |  [Tests][22] |    ✓    |
 | Compute rows in Pascal’s Triangle                                 	   |		  |         |
 
 [1]: arrays/dutchflagproblem.go
@@ -55,3 +55,7 @@ Chapter 5 - Arrays
 
 [19]: arrays/spiralordering.go
 [20]: arrays/spiralordering_test.go
+
+[21]: arrays/rotate2D.go
+[22]: arrays/rotate2D_test.go
+
