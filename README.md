@@ -16,7 +16,7 @@ Chapter 5 - Arrays
 | [Enumerate all primes to n][13]                                          |  [Tests][14] |    ✓    |
 | [Permute the elements of an array][15]                                   |  [Tests][16] |    ✓    |
 | Compute the next permutation                                       	   |		      |         |
-| Sample offline data                                                      |              |         |
+| [Sample offline data][17]                                               |  [Tests][18] |     ✓   |
 | Sample online data                                                 	   |		      |         |
 | Compute a random permutation                                       	   |              |         |
 | Compute a random subset                                            	   |		      |         |
@@ -49,3 +49,6 @@ Chapter 5 - Arrays
 
 [15]: arrays/permutation.go
 [16]: arrays/permutation_test.go
+
+[17]: arrays/offlinedata.go
+[18]: arrays/offlinedata.go
