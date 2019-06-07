@@ -26,7 +26,7 @@ Chapter 5 - Arrays
 | [Rotate a 2D array][21]                                                  |  [Tests][22] |    ✓    |
 | Compute rows in Pascal’s Triangle                                 	   |		  |         |
 
-Chapter 5 - Arrays
+Chapter 5 - Strings
 ------------------
 
 | Problem                                                                  | Test         | Solved  |
