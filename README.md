@@ -26,6 +26,14 @@ Chapter 5 - Arrays
 | [Rotate a 2D array][21]                                                  |  [Tests][22] |    ✓    |
 | Compute rows in Pascal’s Triangle                                 	   |		  |         |
 
+Chapter 5 - Arrays
+------------------
+
+| Problem                                                                  | Test         | Solved  |
+|--------------------------------------------------------------------------|:------------:|:-------:|
+| [Interconvert strings and intergers][23]                                 |  [Tests][24] |    ✓    |
+
+
 [1]: arrays/dutchflagproblem.go
 [2]: arrays/dutchflagproblem_test.go
 
@@ -58,4 +66,7 @@ Chapter 5 - Arrays
 
 [21]: arrays/rotate2D.go
 [22]: arrays/rotate2D_test.go
+
+[23]: strings/interconvert.go
+[24]: strings/interconvert_test.go
 
