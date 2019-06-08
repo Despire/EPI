@@ -32,6 +32,7 @@ Chapter 5 - Strings
 | Problem                                                                  | Test         | Solved  |
 |--------------------------------------------------------------------------|:------------:|:-------:|
 | [Interconvert strings and intergers][23]                                 |  [Tests][24] |    ✓    |
+| [Base Conversion][25]                                                    |  [Tests][26] |    ✓    |
 
 
 [1]: arrays/dutchflagproblem.go
@@ -70,3 +71,5 @@ Chapter 5 - Strings
 [23]: strings/interconvert.go
 [24]: strings/interconvert_test.go
 
+[25]: strings/baseconversion.go
+[26]: strings/baseconversion_test.go
