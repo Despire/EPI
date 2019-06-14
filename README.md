@@ -10,21 +10,21 @@ Chapter 5 - Arrays
 | Multiply two arbitrary-precision integers           	                   |              |         |
 | [Advancing through an array][5]                                          |  [Tests][6]  |    ✓    |
 | [Delete duplicates from a sorted array][7]                               |  [Tests][8]  |    ✓    |   
-| [Buy and sell a stock once][9]       		        	           |  [Tests][10] |    ✓    |
-| Buy and sell a stock twice                                         	   |		  |         |
-| [Computing an alternation][11]           			           |  [Tests][12] |    ✓    |
+| [Buy and sell a stock once][9]       		        	                   |  [Tests][10] |    ✓    |
+| Buy and sell a stock twice                                         	   |		      |         |
+| [Computing an alternation][11]           			                       |  [Tests][12] |    ✓    |
 | [Enumerate all primes to n][13]                                          |  [Tests][14] |    ✓    |
 | [Permute the elements of an array][15]                                   |  [Tests][16] |    ✓    |
-| Compute the next permutation                                       	   |		  |         |
+| Compute the next permutation                                       	   |		      |         |
 | [Sample offline data][17]                                                |  [Tests][18] |    ✓    |
-| Sample online data                                                 	   |		  |         |
+| Sample online data                                                 	   |		      |         |
 | Compute a random permutation                                       	   |              |         |
-| Compute a random subset                                            	   |		  |         |
-| Generate nonuniform random numbers                                	   |		  |         |
-| The Sudoku checker problem                                        	   |		  |         |
+| Compute a random subset                                            	   |		      |         |
+| Generate nonuniform random numbers                                	   |		      |         |
+| The Sudoku checker problem                                        	   |		      |         |
 | [Compute the spiral ordering of a 2D array][19]                          |  [Tests][20] |    ✓    |
 | [Rotate a 2D array][21]                                                  |  [Tests][22] |    ✓    |
-| Compute rows in Pascal’s Triangle                                 	   |		  |         |
+| Compute rows in Pascal’s Triangle                                 	   |		      |         |
 
 Chapter 6 - Strings
 ------------------
@@ -33,6 +33,7 @@ Chapter 6 - Strings
 |--------------------------------------------------------------------------|:------------:|:-------:|
 | [Interconvert strings and intergers][23]                                 |  [Tests][24] |    ✓    |
 | [Base Conversion][25]                                                    |  [Tests][26] |    ✓    |
+| [Compute the spreadsheet column encoding][27]                            |  [Tests][28] |    ✓    |
 
 
 [1]: arrays/dutchflagproblem.go
@@ -73,3 +74,6 @@ Chapter 6 - Strings
 
 [25]: strings/baseconversion.go
 [26]: strings/baseconversion_test.go
+
+[27]: strings/columnencoding.go
+[28]: strings/columnencoding_test.go
