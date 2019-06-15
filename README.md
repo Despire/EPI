@@ -36,6 +36,7 @@ Chapter 6 - Strings
 | [Compute the spreadsheet column encoding][27]                            |  [Tests][28] |    ✓    |
 | [Replace and remove][29]                                                 |  [Tests][30] |    ✓    |
 | [Test palindromcity][31]                                                 |  [Tests][32] |    ✓    |
+| [Reverse all the words in a sentece][33]                                 |  [Tests][34] |    ✓    |
 
 
 [1]: arrays/dutchflagproblem.go
@@ -85,3 +86,6 @@ Chapter 6 - Strings
 
 [31]: strings/palindromcity.go
 [32]: strings/palindromcity_test.go
+
+[33]: strings/reversewords.go
+[34]: strings/reversewords_test.go
