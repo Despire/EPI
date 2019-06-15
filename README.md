@@ -35,6 +35,7 @@ Chapter 6 - Strings
 | [Base Conversion][25]                                                    |  [Tests][26] |    ✓    |
 | [Compute the spreadsheet column encoding][27]                            |  [Tests][28] |    ✓    |
 | [Replace and remove][29]                                                 |  [Tests][30] |    ✓    |
+| [Test palindromcity][31]                                                 |  [Tests][32] |    ✓    |
 
 
 [1]: arrays/dutchflagproblem.go
@@ -81,3 +82,6 @@ Chapter 6 - Strings
 
 [29]: strings/replace_remove.go
 [30]: strings/replace_remove_test.go
+
+[31]: strings/palindromcity.go
+[32]: strings/palindromcity_test.go
