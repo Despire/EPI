@@ -34,6 +34,7 @@ Chapter 6 - Strings
 | [Interconvert strings and intergers][23]                                 |  [Tests][24] |    ✓    |
 | [Base Conversion][25]                                                    |  [Tests][26] |    ✓    |
 | [Compute the spreadsheet column encoding][27]                            |  [Tests][28] |    ✓    |
+| [Replace and remove][29]                                                 |  [Tests][30] |    ✓    |
 
 
 [1]: arrays/dutchflagproblem.go
@@ -77,3 +78,6 @@ Chapter 6 - Strings
 
 [27]: strings/columnencoding.go
 [28]: strings/columnencoding_test.go
+
+[29]: strings/replace_remove.go
+[30]: strings/replace_remove_test.go
