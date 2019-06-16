@@ -14,7 +14,28 @@
 
 package strings
 
-func ASCIIReverseWords(chars []rune) {
+import "unicode"
+
+func ReverseWords(chars []rune) {
+	// Reverse whole sentence
+	Reverse(chars)
+
+	// Time complexity: O(n)
+	// Space complexity: O(1)
+	// Reverse each whitespace seperated word
+	for i := 0; i < len(chars); i++ {
+		if unicode.IsSpace(chars[i]) {
+			Reverse(chars[:i])
+			chars = chars[i+1:]
+			i = -1
+		}
+	}
+
+	// Reverse the last word in the sentence
+	Reverse(chars)
+}
+
+func Reverse(chars []rune) {
 	for i := 0; i < len(chars)/2; i++ {
 		chars[i], chars[len(chars)-1-i] = chars[len(chars)-1-i], chars[i]
 	}

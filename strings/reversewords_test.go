@@ -14,8 +14,41 @@
 
 package strings
 
-import "testing"
+import (
+	"reflect"
+	"testing"
+)
 
-func TestASCIIReverseWords(t *testing.T) {
+func TestReverseWords(t *testing.T) {
+	tests := []struct {
+		input []rune
+		want  []rune
+	}{
+		{
+			input: []rune("Alice likes Bob"),
+			want:  []rune("Bob likes Alice"),
+		},
 
+		{
+			input: []rune("Aloha"),
+			want:  []rune("Aloha"),
+		},
+
+		{
+			input: []rune("Aloha bamamas"),
+			want:  []rune("bamamas Aloha"),
+		},
+
+		{
+			input: []rune("古籍書寫中 同一個字的不同寫法"),
+			want:  []rune("同一個字的不同寫法 古籍書寫中"),
+		},
+	}
+
+	for _, test := range tests {
+		ReverseWords(test.input)
+		if !reflect.DeepEqual(test.input, test.want) {
+			t.Errorf("Unexpected result! got: %v; want: %v", test.input, test.want)
+		}
+	}
 }
