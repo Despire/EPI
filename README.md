@@ -37,6 +37,7 @@ Chapter 6 - Strings
 | [Replace and remove][29]                                                 |  [Tests][30] |    ✓    |
 | [Test palindromcity][31]                                                 |  [Tests][32] |    ✓    |
 | [Reverse all the words in a sentece][33]                                 |  [Tests][34] |    ✓    |
+| [Compute all mnemonics for a phone number][35]                           |  [Tests][36] |    ✓    |
 
 
 [1]: arrays/dutchflagproblem.go
@@ -89,3 +90,6 @@ Chapter 6 - Strings
 
 [33]: strings/reversewords.go
 [34]: strings/reversewords_test.go
+
+[35]: strings/mnemonics.go
+[36]: strings/mnemonics_test.go
