@@ -38,6 +38,7 @@ Chapter 6 - Strings
 | [Test palindromcity][31]                                                 |  [Tests][32] |    ✓    |
 | [Reverse all the words in a sentece][33]                                 |  [Tests][34] |    ✓    |
 | [Compute all mnemonics for a phone number][35]                           |  [Tests][36] |    ✓    |
+| [The Look and say problem][37]                                           |  [Tests][38] |    ✓    |
 
 
 [1]: arrays/dutchflagproblem.go
@@ -93,3 +94,6 @@ Chapter 6 - Strings
 
 [35]: strings/mnemonics.go
 [36]: strings/mnemonics_test.go
+
+[37]: strings/looksay.go
+[38]: strings/looksay_test.go
