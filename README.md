@@ -39,6 +39,7 @@ Chapter 6 - Strings
 | [Reverse all the words in a sentece][33]                                 |  [Tests][34] |    ✓    |
 | [Compute all mnemonics for a phone number][35]                           |  [Tests][36] |    ✓    |
 | [The Look and say problem][37]                                           |  [Tests][38] |    ✓    |
+| [Convert from Roman to Decimal][39]                                      |  [Tests][40] |    ✓    |
 
 
 [1]: arrays/dutchflagproblem.go
@@ -97,3 +98,6 @@ Chapter 6 - Strings
 
 [37]: strings/looksay.go
 [38]: strings/looksay_test.go
+
+[39]: strings/roman.go
+[40]: strings/roman_test.go
