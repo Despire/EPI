@@ -41,6 +41,7 @@ Chapter 6 - Strings
 | [The Look and say problem][37]                                           |  [Tests][38] |    ✓    |
 | [Convert from Roman to Decimal][39]                                      |  [Tests][40] |    ✓    |
 | [Compute all valid IP addresses][41]                                     |  [Tests][42] |    ✓    |
+| [Write string sinusoidally][43]                                          |  [Tests][44] |    ✓    |
 
 
 [1]: arrays/dutchflagproblem.go
@@ -105,3 +106,6 @@ Chapter 6 - Strings
 
 [41]: strings/ipaddr.go
 [42]: strings/ipaddr_test.go
+
+[43]: strings/sin.go
+[44]: strings/sin_test.go
