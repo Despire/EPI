@@ -40,6 +40,7 @@ Chapter 6 - Strings
 | [Compute all mnemonics for a phone number][35]                           |  [Tests][36] |    ✓    |
 | [The Look and say problem][37]                                           |  [Tests][38] |    ✓    |
 | [Convert from Roman to Decimal][39]                                      |  [Tests][40] |    ✓    |
+| [Compute all valid IP addresses][41]                                     |  [Tests][42] |    ✓    |
 
 
 [1]: arrays/dutchflagproblem.go
@@ -101,3 +102,6 @@ Chapter 6 - Strings
 
 [39]: strings/roman.go
 [40]: strings/roman_test.go
+
+[41]: strings/ipaddr.go
+[42]: strings/ipaddr_test.go
