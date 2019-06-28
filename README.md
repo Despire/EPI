@@ -43,6 +43,7 @@ Chapter 6 - Strings
 | [Compute all valid IP addresses][41]                                     |  [Tests][42] |    ✓    |
 | [Write string sinusoidally][43]                                          |  [Tests][44] |    ✓    |
 | [Implement RUN-LENGTH Encoding][45]                                      |  [Tests][46] |    ✓    |
+| [Find the first occurrence of a substring][47]                           |  [Tests][48] |    ✓    |
 
 
 [1]: arrays/dutchflagproblem.go
@@ -113,4 +114,7 @@ Chapter 6 - Strings
 
 [45]: strings/encoding.go
 [46]: strings/encoding_test.go
+
+[47]: strings/substring.go
+[48]: strings/substring_test.go
 
