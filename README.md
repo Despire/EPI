@@ -42,6 +42,7 @@ Chapter 6 - Strings
 | [Convert from Roman to Decimal][39]                                      |  [Tests][40] |    ✓    |
 | [Compute all valid IP addresses][41]                                     |  [Tests][42] |    ✓    |
 | [Write string sinusoidally][43]                                          |  [Tests][44] |    ✓    |
+| [Implement RUN-LENGTH Encoding][45]                                      |  [Tests][46] |    ✓    |
 
 
 [1]: arrays/dutchflagproblem.go
@@ -109,3 +110,7 @@ Chapter 6 - Strings
 
 [43]: strings/sin.go
 [44]: strings/sin_test.go
+
+[45]: strings/encoding.go
+[46]: strings/encoding_test.go
+
