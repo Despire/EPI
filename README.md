@@ -45,6 +45,12 @@ Chapter 6 - Strings
 | [Implement RUN-LENGTH Encoding][45]                                      |  [Tests][46] |    ✓    |
 | [Find the first occurrence of a substring][47]                           |  [Tests][48] |    ✓    |
 
+Chapter 6 - Strings
+------------------
+
+| Problem                                                                  | Test         | Solved  |
+|--------------------------------------------------------------------------|:------------:|:-------:|
+| [Merge Two sorted lists][49]                                             |  [Tests][50] |    ✓    |
 
 [1]: arrays/dutchflagproblem.go
 [2]: arrays/dutchflagproblem_test.go
@@ -118,3 +124,5 @@ Chapter 6 - Strings
 [47]: strings/substring.go
 [48]: strings/substring_test.go
 
+[49]: linkedlists/mergetwo.go
+[50]: linkedlists/mergetwo_test.go
