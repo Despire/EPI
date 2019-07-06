@@ -45,7 +45,7 @@ Chapter 6 - Strings
 | [Implement RUN-LENGTH Encoding][45]                                      |  [Tests][46] |    ✓    |
 | [Find the first occurrence of a substring][47]                           |  [Tests][48] |    ✓    |
 
-Chapter 6 - Strings
+Chapter 7 - Linked Lists
 ------------------
 
 | Problem                                                                  | Test         | Solved  |
