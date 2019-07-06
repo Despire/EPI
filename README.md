@@ -51,6 +51,7 @@ Chapter 6 - Strings
 | Problem                                                                  | Test         | Solved  |
 |--------------------------------------------------------------------------|:------------:|:-------:|
 | [Merge Two sorted lists][49]                                             |  [Tests][50] |    ✓    |
+| [Reverse a single sublist][51]                                           |  [Tests][52] |    ✓    |
 
 [1]: arrays/dutchflagproblem.go
 [2]: arrays/dutchflagproblem_test.go
@@ -126,3 +127,6 @@ Chapter 6 - Strings
 
 [49]: linkedlists/mergetwo.go
 [50]: linkedlists/mergetwo_test.go
+
+[51]: linkedlists/reversell.go
+[52]: linkedlists/reversell_test.go
