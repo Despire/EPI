@@ -52,6 +52,7 @@ Chapter 7 - Linked Lists
 |--------------------------------------------------------------------------|:------------:|:-------:|
 | [Merge Two sorted lists][49]                                             |  [Tests][50] |    ✓    |
 | [Reverse a single sublist][51]                                           |  [Tests][52] |    ✓    |
+| [Cycle detection][53]                                                    |  [Tests][54] |    ✓    |
 
 [1]: arrays/dutchflagproblem.go
 [2]: arrays/dutchflagproblem_test.go
@@ -130,3 +131,6 @@ Chapter 7 - Linked Lists
 
 [51]: linkedlists/reversell.go
 [52]: linkedlists/reversell_test.go
+
+[53]: linkedlists/cycle.go
+[54]: linkedlists/cycle_test.go
