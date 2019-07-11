@@ -7,24 +7,24 @@ Chapter 5 - Arrays
 |--------------------------------------------------------------------------|:------------:|:-------:|
 | [The Dutch national flag problem][1]                                     |  [Tests][2]  |    ✓    |
 | [Increment an arbitrary-precision integer][3]                            |  [Tests][4]  |    ✓    |
-| Multiply two arbitrary-precision integers           	                   |              |         |
+| Multiply two arbitrary-precision integers           	                   |              |    x    |
 | [Advancing through an array][5]                                          |  [Tests][6]  |    ✓    |
 | [Delete duplicates from a sorted array][7]                               |  [Tests][8]  |    ✓    |   
 | [Buy and sell a stock once][9]       		        	                   |  [Tests][10] |    ✓    |
-| Buy and sell a stock twice                                         	   |		      |         |
+| Buy and sell a stock twice                                         	   |		      |    x    |
 | [Computing an alternation][11]           			                       |  [Tests][12] |    ✓    |
 | [Enumerate all primes to n][13]                                          |  [Tests][14] |    ✓    |
 | [Permute the elements of an array][15]                                   |  [Tests][16] |    ✓    |
-| Compute the next permutation                                       	   |		      |         |
+| Compute the next permutation                                       	   |		      |    x    |
 | [Sample offline data][17]                                                |  [Tests][18] |    ✓    |
-| Sample online data                                                 	   |		      |         |
-| Compute a random permutation                                       	   |              |         |
-| Compute a random subset                                            	   |		      |         |
-| Generate nonuniform random numbers                                	   |		      |         |
-| The Sudoku checker problem                                        	   |		      |         |
+| Sample online data                                                 	   |		      |    x    |
+| Compute a random permutation                                       	   |              |    x    |
+| Compute a random subset                                            	   |		      |    x    |
+| Generate nonuniform random numbers                                	   |		      |    x    |
+| The Sudoku checker problem                                        	   |		      |    x    |
 | [Compute the spiral ordering of a 2D array][19]                          |  [Tests][20] |    ✓    |
 | [Rotate a 2D array][21]                                                  |  [Tests][22] |    ✓    |
-| Compute rows in Pascal’s Triangle                                 	   |		      |         |
+| Compute rows in Pascal’s Triangle                                 	   |		      |    x    |
 
 Chapter 6 - Strings
 ------------------
