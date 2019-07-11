@@ -54,6 +54,7 @@ Chapter 7 - Linked Lists
 | [Reverse a single sublist][51]                                           |  [Tests][52] |    ✓    |
 | [Cycle detection][53]                                                    |  [Tests][54] |    ✓    |
 | [Test if Overlap][55]                                                    |  [Tests][56] |    ✓    |
+| [Test if Overlap (may have cycles)][57]                                  |  [Tests][58] |    x    |
 
 [1]: arrays/dutchflagproblem.go
 [2]: arrays/dutchflagproblem_test.go
@@ -138,3 +139,6 @@ Chapter 7 - Linked Lists
 
 [55]: linkedlists/overlap.go
 [56]: linkedlists/overlap_test.go
+
+[57]: unimplemented.md
+[58]: unimplemented.md
