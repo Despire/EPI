@@ -149,4 +149,5 @@ Chapter 7 - Linked Lists
 [60]: uimplemented.md
 
 [61]: linkedlists/deletekthnode.go
-[62]: uimplemented.md
+[62]: linkedlists/deletekthnode_test.go
+
