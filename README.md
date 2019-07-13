@@ -57,6 +57,7 @@ Chapter 7 - Linked Lists
 | [Test if Overlap (may have cycles)][57]                                  |  [Tests][58] |    x    |
 | [Delete a node from a SLL][59]                                           |  [Tests][60] |    ✓    |
 | [Delete kth last node][61]                                               |  [Tests][62] |    ✓    |
+| [Remove duplicates][63]                                                  |  [Tests][64] |    ✓    |
 
 [1]: arrays/dutchflagproblem.go
 [2]: arrays/dutchflagproblem_test.go
@@ -151,3 +152,5 @@ Chapter 7 - Linked Lists
 [61]: linkedlists/deletekthnode.go
 [62]: linkedlists/deletekthnode_test.go
 
+[63]: linkedlists/rmdup.go
+[64]: linkedlists/rmdup_test.go
