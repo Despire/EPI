@@ -61,6 +61,8 @@ Chapter 7 - Linked Lists
 | [Cyclic right shift][65]                                                 |  [Tests][66] |    ✓    |
 | [Even odd merge][67]                                                     |  [Tests][68] |    ✓    |
 | [Is palindrome][69]                                                      |  [Tests][70] |    ✓    |
+| [List pivoting][71]                                                      |  [Tests][72] |    x    |
+| [Add list-based intergers][73]                                           |  [Tests][74] |    x    |
 
 [1]: arrays/dutchflagproblem.go
 [2]: arrays/dutchflagproblem_test.go
@@ -166,4 +168,10 @@ Chapter 7 - Linked Lists
 
 [69]: linkedlists/palindrome.go
 [70]: linkedlists/palindrome_test.go
+
+[71]: unimplemented.md
+[72]: unimplemented.md
+
+[73]: unimplemented.md
+[74]: unimplemented.md
 
