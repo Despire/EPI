@@ -60,6 +60,7 @@ Chapter 7 - Linked Lists
 | [Remove duplicates][63]                                                  |  [Tests][64] |    ✓    |
 | [Cyclic right shift][65]                                                 |  [Tests][66] |    ✓    |
 | [Even odd merge][67]                                                     |  [Tests][68] |    ✓    |
+| [Is palindrome][69]                                                      |  [Tests][70] |    ✓    |
 
 [1]: arrays/dutchflagproblem.go
 [2]: arrays/dutchflagproblem_test.go
@@ -162,4 +163,7 @@ Chapter 7 - Linked Lists
 
 [67]: linkedlists/even_odd.go
 [68]: linkedlists/even_odd_test.go
+
+[69]: linkedlists/palindrome.go
+[70]: linkedlists/palindrome_test.go
 
