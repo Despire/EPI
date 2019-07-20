@@ -64,6 +64,15 @@ Chapter 7 - Linked Lists
 | [List pivoting][71]                                                      |  [Tests][72] |    x    |
 | [Add list-based intergers][73]                                           |  [Tests][74] |    x    |
 
+Chapter 8 - Stacks and Queues
+---------------------------
+
+| Problem                                                                  | Test         | Solved  |
+|--------------------------------------------------------------------------|:------------:|:-------:|
+| [Implement stack with Max API][75]                                       |  [Tests][76] |    ✓    |
+
+
+
 [1]: arrays/dutchflagproblem.go
 [2]: arrays/dutchflagproblem_test.go
 
@@ -174,4 +183,7 @@ Chapter 7 - Linked Lists
 
 [73]: unimplemented.md
 [74]: unimplemented.md
+
+[75]: stacksandqueues/stack.go
+[76]: stacksandqueues/stack_test.go
 
