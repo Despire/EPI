@@ -58,6 +58,7 @@ Chapter 7 - Linked Lists
 | [Delete a node from a SLL][59]                                           |  [Tests][60] |    ✓    |
 | [Delete kth last node][61]                                               |  [Tests][62] |    ✓    |
 | [Remove duplicates][63]                                                  |  [Tests][64] |    ✓    |
+| [Cyclic right shift][65]                                                 |  [Tests][66] |    ✓    |
 
 [1]: arrays/dutchflagproblem.go
 [2]: arrays/dutchflagproblem_test.go
@@ -154,3 +155,7 @@ Chapter 7 - Linked Lists
 
 [63]: linkedlists/rmdup.go
 [64]: linkedlists/rmdup_test.go
+
+[65]: linkedlists/shift_right.go
+[66]: linkedlists/shift_right_test.go
+
