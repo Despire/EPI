@@ -59,6 +59,7 @@ Chapter 7 - Linked Lists
 | [Delete kth last node][61]                                               |  [Tests][62] |    ✓    |
 | [Remove duplicates][63]                                                  |  [Tests][64] |    ✓    |
 | [Cyclic right shift][65]                                                 |  [Tests][66] |    ✓    |
+| [Even odd merge][67]                                                     |  [Tests][68] |    ✓    |
 
 [1]: arrays/dutchflagproblem.go
 [2]: arrays/dutchflagproblem_test.go
@@ -158,4 +159,7 @@ Chapter 7 - Linked Lists
 
 [65]: linkedlists/shift_right.go
 [66]: linkedlists/shift_right_test.go
+
+[67]: linkedlists/even_odd.go
+[68]: linkedlists/even_odd_test.go
 
