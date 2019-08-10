@@ -14,6 +14,8 @@
 
 package linkedlists
 
+// HasCycle checks if the linkedlists contains a cycle in
+// O(N) time complexity, O(1) space complexity.
 func HasCycle(root *Node) bool {
 	if root == nil {
 		return false
@@ -34,6 +36,8 @@ func HasCycle(root *Node) bool {
 	return false
 }
 
+// RootOfCycle detects the root of the cycle if the linkedlists
+// contains a cycle in O(N) time complexity, O(1) space complexity.
 func RootOfCycle(root *Node) *Node {
 	if !HasCycle(root) {
 		return nil

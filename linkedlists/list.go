@@ -14,6 +14,7 @@
 
 package linkedlists
 
+// Node represents a sigle linkedlist node.
 type Node struct {
 	Data interface{}
 	Next *Node

@@ -30,11 +30,13 @@ type Stack interface {
 	Top() interface{}
 }
 
+// stack implmenets the standard stack interface.
 type stack struct {
 	typ      reflect.Type
 	elements []interface{}
 }
 
+// checkType checks the type of the pushed value.
 func (s *stack) checkType(value interface{}) {
 	typ := reflect.TypeOf(value)
 
@@ -45,6 +47,8 @@ func (s *stack) checkType(value interface{}) {
 	}
 }
 
+// Push pushes the element into the stack
+// If the types mismatch panics.
 func (s *stack) Push(value interface{}) {
 	// will trigger only for the first value pushed
 	if s.typ == nil {
@@ -56,6 +60,8 @@ func (s *stack) Push(value interface{}) {
 	s.elements = append(s.elements, value)
 }
 
+// Pop returns the First element in the stack.
+// Might panic if there are no elements.
 func (s *stack) Pop() interface{} {
 	if len(s.elements) == 0 {
 		panic("no elements to pop")
@@ -66,10 +72,12 @@ func (s *stack) Pop() interface{} {
 	return result
 }
 
+// Stack returns the number of elements in the stack.
 func (s *stack) Size() int {
 	return len(s.elements)
 }
 
+// Top returns the first element in the stack.
 func (s *stack) Top() interface{} {
 	if len(s.elements) == 0 {
 		panic("no element to return")
@@ -77,16 +85,22 @@ func (s *stack) Top() interface{} {
 	return s.elements[len(s.elements)-1]
 }
 
+// IntMaxValue contains information
+// about the max value in the stack.
 type IntMaxValue struct {
 	count int
 	value int
 }
 
+// IntStack implements the stack interface
+// and provides a Max api to return the maximum
+// element in the stack.
 type IntStack struct {
 	elements  []int
 	maxValues []IntMaxValue
 }
 
+// Max returns the max value in the stack.
 func (s *IntStack) Max() interface{} {
 	if len(s.maxValues) == 0 {
 		return nil
@@ -94,6 +108,8 @@ func (s *IntStack) Max() interface{} {
 	return s.maxValues[len(s.maxValues)-1].value
 }
 
+// Push pushes the element into the stack.
+// Might panic if the types mismatch.
 func (s *IntStack) Push(value interface{}) {
 	if _, ok := value.(int); !ok {
 		panic("pushed a non-integer value")
@@ -117,6 +133,7 @@ func (s *IntStack) Push(value interface{}) {
 	}
 }
 
+// Pop returns the last element from the stack.
 func (s *IntStack) Pop() interface{} {
 	if len(s.elements) == 0 {
 		panic("no elements to pop")
@@ -133,10 +150,12 @@ func (s *IntStack) Pop() interface{} {
 	return result
 }
 
+// Size returns the number of elements in the stack.
 func (s *IntStack) Size() int {
 	return len(s.elements)
 }
 
+// Top returns the first element in the stack.
 func (s *IntStack) Top() interface{} {
 	if len(s.elements) == 0 {
 		panic("no elements to return")

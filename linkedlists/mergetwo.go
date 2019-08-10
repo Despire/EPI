@@ -14,6 +14,8 @@
 
 package linkedlists
 
+// Merge merges two sorted linked lists in O(N) time complexity.
+// O(1) space complexity.
 func Merge(first *Node, second *Node) *Node {
 	var root = &Node{
 		Data: 0,

@@ -14,6 +14,8 @@
 
 package linkedlists
 
+// IsPalindrome checks if the linkedlist is a palindrom
+// In O(N) time complexity, O(1) space complexity.
 func IsPalindrome(root *Node) bool {
 	if root == nil {
 		return false

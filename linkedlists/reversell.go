@@ -14,6 +14,7 @@
 
 package linkedlists
 
+// Reverse reverses a linked lists in O(N) time complexity.
 func Reverse(root *Node) *Node {
 
 	prev := (*Node)(nil)
@@ -29,6 +30,8 @@ func Reverse(root *Node) *Node {
 	return prev
 }
 
+// ReverseSubList reverses a sublist of a linked list
+// in O(N) time complexity, O(1) space complexity.
 func ReverseSubList(root *Node, i, j int) *Node {
 	dummy := &Node{
 		Data: 0,

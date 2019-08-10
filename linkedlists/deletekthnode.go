@@ -14,6 +14,8 @@
 
 package linkedlists
 
+// DeleteKthLast deletes the kth last node from a linkedlists
+// In O(N) time complexity, O(1) space complexity.
 func DeleteKthLast(node *Node, k int) bool {
 	if node == nil {
 		return false

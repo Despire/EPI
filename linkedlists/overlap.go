@@ -14,6 +14,8 @@
 
 package linkedlists
 
+// DoOverlap checks if two linkedlists overlap
+// In O(N) time complexity.
 func DoOverlap(root1 *Node, root2 *Node) bool {
 	root1Size := 0
 	root2Size := 0
@@ -47,6 +49,7 @@ func DoOverlap(root1 *Node, root2 *Node) bool {
 	return false
 }
 
+// advanceByK returns the kth node starting from <root> node.
 func advanceByK(root *Node, k int) *Node {
 	for i := 0; i < k; i++ {
 		root = root.Next

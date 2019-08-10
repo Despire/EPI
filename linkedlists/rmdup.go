@@ -14,6 +14,9 @@
 
 package linkedlists
 
+// RemoveDuplicates removes duplicate nodes
+// from a linked list in O(N) time complexity
+// O(1) space complexity.
 func RemoveDuplicates(root *Node) {
 	if root == nil {
 		return

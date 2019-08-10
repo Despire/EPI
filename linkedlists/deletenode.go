@@ -14,6 +14,8 @@
 
 package linkedlists
 
+// DeleteNode deletes a linkedlist node in O(1) time complexity.
+// O(1) space complexity.
 func DeleteNode(del *Node) {
 	del.Data = del.Next.Data
 	del.Next = del.Next.Next

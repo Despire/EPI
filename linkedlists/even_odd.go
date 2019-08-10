@@ -14,6 +14,8 @@
 
 package linkedlists
 
+// EvenOddMerge creates an even-odd merge from the linkedlist.
+// In O(N) time complexity, O(1) space complexity.
 func EvenOddMerge(root *Node) *Node {
 	if root == nil {
 		return nil

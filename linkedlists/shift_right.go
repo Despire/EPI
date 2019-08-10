@@ -14,6 +14,8 @@
 
 package linkedlists
 
+// ShiftRightByK shifts the linked list by K-time
+// in O(N) time complexity, O(1) space complexity.
 func ShiftRightByK(root *Node, k int) *Node {
 	if root == nil {
 		return nil
