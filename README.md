@@ -70,6 +70,7 @@ Chapter 8 - Stacks and Queues
 | Problem                                                                  | Test         | Solved  |
 |--------------------------------------------------------------------------|:------------:|:-------:|
 | [Implement stack with Max API][75]                                       |  [Tests][76] |    ✓    |
+| [Evaluate RPN expression][77]                                            |  [Tests][78] |    ✓    |
 
 
 
@@ -187,3 +188,5 @@ Chapter 8 - Stacks and Queues
 [75]: stacksandqueues/stack.go
 [76]: stacksandqueues/stack_test.go
 
+[77]: stacksandqueues/rpn_expression.go
+[78]: stacksandqueues/rpn_expression_test.go
