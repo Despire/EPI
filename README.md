@@ -73,6 +73,8 @@ Chapter 8 - Stacks and Queues
 | [Evaluate RPN expression][77]                                            |  [Tests][78] |    ✓    |
 | [String is Well Formed][79]                                              |  [Tests][80] |    ✓    |
 | [Normalize Pathnames][81]                                                |  [Tests][82] |    ✓    |
+| [Compute posting list][83]                                               |  [Tests][84] |    x    |
+| [Compute building with a sunset view][85]                                |  [Tests][86] |    ✓    |
 
 
 
@@ -198,3 +200,6 @@ Chapter 8 - Stacks and Queues
 
 [81]: stacksandqueues/normalize_pathnames.go
 [82]: stacksandqueues/normalize_pathnames_test.go
+
+[83]: unimplemented.md
+[84]: unimplemented.md
