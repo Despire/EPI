@@ -72,6 +72,7 @@ Chapter 8 - Stacks and Queues
 | [Implement stack with Max API][75]                                       |  [Tests][76] |    ✓    |
 | [Evaluate RPN expression][77]                                            |  [Tests][78] |    ✓    |
 | [String is Well Formed][79]                                              |  [Tests][80] |    ✓    |
+| [Normalize Pathnames][81]                                                |  [Tests][82] |    ✓    |
 
 
 
@@ -194,3 +195,6 @@ Chapter 8 - Stacks and Queues
 
 [79]: stacksandqueues/well_formedness.go
 [80]: stacksandqueues/well_formedness_test.go
+
+[81]: stacksandqueues/normalize_pathnames.go
+[82]: stacksandqueues/normalize_pathnames_test.go
