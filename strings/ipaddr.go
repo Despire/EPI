@@ -16,6 +16,10 @@ package strings
 
 import "strconv"
 
+// ComputeIpv4 computes all valid ip addresses from a strings
+// which represents an ip address but does not contains dots (for the individual octects).
+// e.g 19216801.
+// Takes O(1) time and O(1) space complexity.
 func ComputeIpv4(s string) []string {
 	result := make([]string, 0, 1)
 	l := len(s)
@@ -56,6 +60,8 @@ func ComputeIpv4(s string) []string {
 	return result
 }
 
+// isOctetValid checks if the octect from the IPv4
+// address is a valid octect.
 func isOctetValid(oct string) bool {
 	var value int64
 	var err error

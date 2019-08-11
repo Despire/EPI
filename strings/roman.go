@@ -15,6 +15,7 @@
 package strings
 
 // symbols must appear in nonincreasing order
+// romanToDeci maps roman characters to their numeric values.
 var romanToDeci = map[byte]int{
 	'I': 1,
 	'V': 5,
@@ -25,6 +26,9 @@ var romanToDeci = map[byte]int{
 	'M': 1000,
 }
 
+// RomanToDecimal converts a roman integer passed in as a string
+// and returns it's value in base 10.
+// Time complexity O(N) with O(1) space.
 func RomanToDecimal(s string) int {
 	sum := romanToDeci[s[len(s)-1]]
 

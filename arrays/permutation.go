@@ -14,6 +14,8 @@
 
 package arrays
 
+// ApplyPermutation will apply the permutation
+// in O(N) time and with additional O(N) space complexity.
 func ApplyPermutation(elems, permutation []int) {
 	s := make([]bool, len(elems))
 

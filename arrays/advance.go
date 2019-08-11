@@ -17,6 +17,8 @@ package arrays
 // Advance advances through the array
 // and returns if it is possible to
 // advance to the last position.
+// Time complexity O(N).
+// Space Complexity O(1).
 func Advance(x []uint) bool {
 	max := 0
 	for i := 0; i < len(x) && max >= i; i++ {

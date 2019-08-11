@@ -16,6 +16,8 @@ package strings
 
 import "math"
 
+// hash hashes the string s, using base 10.
+// Takes O(N) time with O(1) space complexity.
 func hash(s string, b uint64) (uint64, uint64) {
 	result := uint64(0)
 	power := int64(-1)
@@ -28,6 +30,9 @@ func hash(s string, b uint64) (uint64, uint64) {
 	return result, uint64(power)
 }
 
+// findFirstOf finds the first occurence of the substring <sub>
+// in the string <in>.
+// Takes O(m + n) time with O(1) space complexity.
 func findFirstOf(sub string, in string) int {
 	const (
 		base = 26

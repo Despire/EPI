@@ -16,12 +16,13 @@ package strings
 
 import "unicode"
 
+// ReverseWords reverse the words in a string s.
+// The string is passed as an array of runes into the function.
+// Takes O(N) time with O(1) space complexity.
 func ReverseWords(chars []rune) {
 	// Reverse whole sentence
 	Reverse(chars)
 
-	// Time complexity: O(n)
-	// Space complexity: O(1)
 	// Reverse each whitespace seperated word
 	for i := 0; i < len(chars); i++ {
 		if unicode.IsSpace(chars[i]) {
@@ -35,6 +36,8 @@ func ReverseWords(chars []rune) {
 	Reverse(chars)
 }
 
+// Reverse reverse the order.
+// Takes O(N) time complexity with O(1) space.
 func Reverse(chars []rune) {
 	for i := 0; i < len(chars)/2; i++ {
 		chars[i], chars[len(chars)-1-i] = chars[len(chars)-1-i], chars[i]

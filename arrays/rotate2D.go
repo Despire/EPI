@@ -14,6 +14,9 @@
 
 package arrays
 
+// Rotate2DArray takes as input an nxn 2D array, and rotates
+// the array by 90 degrees clockwise.
+// Takes O(N^2) time and O(1) space complexity.
 func Rotate2DArray(matrix [][]int) {
 	rows := len(matrix)
 

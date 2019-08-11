@@ -18,6 +18,8 @@ import (
 	"bytes"
 )
 
+// PrintSinusoidally prints a string sinusoidally
+// Takes O(N) time complexity.
 func PrintSinusoidally(s string) string {
 	buffer := new(bytes.Buffer)
 

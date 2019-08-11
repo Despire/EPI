@@ -14,16 +14,15 @@
 
 package strings
 
-// Time complexity: O(N)
-// Space complexity: O(1)
-
 // ReplaceAndRemove replaces each 'a' by two 'd' and removes
 // each occurence of 'b'
+// Takes O(N) time with O(1) space complexity.
 func ReplaceAndRemove(chars []rune, size int) int {
 	aCount := 0
 	read := 0
 	write := 0
 
+	// remove "b's" and count the number of "a's".
 	for read < size {
 		if chars[read] == 'a' {
 			aCount++
@@ -35,6 +34,7 @@ func ReplaceAndRemove(chars []rune, size int) int {
 		read++
 	}
 
+	// replace "a's" with "dd's" starting from the end.
 	read = write - 1
 	write = write + aCount - 1
 	size = write + 1

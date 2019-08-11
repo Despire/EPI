@@ -19,6 +19,8 @@ import (
 	"unicode/utf8"
 )
 
+// UTF8Palindrome takes as input a utf8 enconded string
+// and checks if it is a palindrome.
 func UTF8Palindrome(s string) bool {
 	for utf8.RuneCountInString(s) > 1 {
 		firstRune, firstSize := utf8.DecodeRuneInString(s)
@@ -33,6 +35,9 @@ func UTF8Palindrome(s string) bool {
 	return true
 }
 
+// ASCIIPalindrome takes as input a string
+// and checks if it is a palindrome.
+// Takes O(N) time with O(1) space complexity.
 func ASCIIPalindrome(s string) bool {
 	i := 0
 	j := len(s) - 1

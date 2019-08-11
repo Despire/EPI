@@ -18,6 +18,9 @@ import (
 	"bytes"
 )
 
+// CalcNthLookSayNumber calculated the nth look and say number
+// starting from the first one.
+// Takes O(N*(2^n)) time complexity.
 func CalcNthLookSayNumber(n int) string {
 	s := "1"
 	for i := 1; i < n; i++ {
@@ -26,6 +29,8 @@ func CalcNthLookSayNumber(n int) string {
 	return s
 }
 
+// next calculates the next look and say number from the one
+// passed in as <s>.
 func next(s string) string {
 	buffer := new(bytes.Buffer)
 

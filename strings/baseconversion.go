@@ -19,6 +19,7 @@ import (
 	"unicode"
 )
 
+// charsmap maps hex characters to numeric values.
 var charsmap = map[rune]int{
 	'A': 10,
 	'B': 11,
@@ -28,6 +29,7 @@ var charsmap = map[rune]int{
 	'F': 15,
 }
 
+// decimap maps numeric values to hex characters.
 var decimap = map[int]rune{
 	10: 'A',
 	11: 'B',
@@ -60,6 +62,7 @@ func convertBase(number string, b1 int, b2 int) string {
 }
 
 // toBase10 converts a non-negative number from b1 to a number from base10.
+// Takes O(N) time with O(1) space complexity.
 func toBase10(number string, b1 int) int {
 	base10 := 0
 
@@ -78,6 +81,7 @@ func toBase10(number string, b1 int) int {
 
 // convertFromBase10 converts a non-negative number from base 10
 // to a number from the specified base in the parameter b2.
+// Takes O(N) time with O(N) space complexity.
 func convertFromBase10(b10 int, b2 int) string {
 	b := new(bytes.Buffer)
 

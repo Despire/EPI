@@ -21,6 +21,9 @@ import (
 	"unicode"
 )
 
+// RLE (acronym for Run length encoding) is an compression algorithm
+// of strings.
+// Takes O(N) time complexity.
 func RLE(s string) string {
 	buffer := new(bytes.Buffer)
 	for i := 0; i < len(s); i++ {
@@ -36,6 +39,9 @@ func RLE(s string) string {
 	return buffer.String()
 }
 
+// RLD (acronym for Run length decoding) is an decoding function
+// for a string encoded using RLE.
+// Takes O(N) time complexity.
 func RLD(s string) string {
 	buffer := new(strings.Builder)
 

@@ -19,6 +19,8 @@ import (
 	"math"
 )
 
+// digitCount returns the number of digits of the number.
+// Example: if the input is 10, the function returns 2 (digit count).
 func digitCount(n int) int {
 	if n < 0 {
 		n = -n
@@ -31,6 +33,9 @@ func digitCount(n int) int {
 	return int(math.Log10(float64(n))) + 1
 }
 
+// IntToString is an implementation of a integer to string
+// conversion.
+// Takes O(N) time with O(N) space complexity.
 func IntToString(number int) string {
 	prefix := ""
 
@@ -62,6 +67,9 @@ func IntToString(number int) string {
 	return b.String()
 }
 
+// StringToInt is an implementation of a string to int
+// conversion function.
+// Takes O(N) time with O(1) space complexity.
 func StringToInt(s string) int {
 	prefix := ""
 

@@ -16,6 +16,9 @@ package arrays
 
 import "math"
 
+// SpiralOrdering takes an nxn 2D array and returns
+// the spral ordering of the array.
+// Takes O(N^2) time and O(1) space complexity.
 func SpiralOrdering(matrix [][]int) []int {
 	rows := len(matrix)
 	cols := len(matrix[0])

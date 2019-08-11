@@ -22,6 +22,8 @@ import "math/rand"
 // if we have a set of 3 and subsetSize is 2 just return the random of three and then random of two.
 // if we have a set of 3 and subsetSize is 3 just return the random of the first then random of the two and than the last element left.
 
+// sampleOfflineData returns a subset of the given size of the array elements.
+// All subsets all equal likely. Takes O(N) time with O(1) space complexity.
 func sampleOfflineData(data []int, subsetSize int) []int {
 	if subsetSize < 1 {
 		return data[:0]

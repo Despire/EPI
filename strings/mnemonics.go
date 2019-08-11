@@ -14,6 +14,8 @@
 
 package strings
 
+// keyboardMap maps keys (keyboard) to
+// characters for that specific key.
 var keyboardMap = map[byte]string{
 	1: "",
 	2: "ABC",
@@ -27,11 +29,10 @@ var keyboardMap = map[byte]string{
 	0: "",
 }
 
+// ComputeWordsFromNumber takes as input a phone number encoded in a string.
+// and returns all possible character sequence that correspond to the phone number.
+// Takes O((4^n)*n) time complexity.
 func ComputeWordsFromNumber(digits string) ([]string, error) {
-	// if len(digits) != 7 && len(digits) != 10 {
-	// 	return nil, errors.New("Unsuported phone-number format")
-	// }
-
 	word := make([]byte, len(digits))
 	result := make([]string, 0, 10)
 	return compute(digits, 0, word, result), nil
