@@ -75,6 +75,7 @@ Chapter 8 - Stacks and Queues
 | [Normalize Pathnames][81]                                                |  [Tests][82] |    ✓    |
 | [Compute posting list][83]                                               |  [Tests][84] |    x    |
 | [Compute building with a sunset view][85]                                |  [Tests][86] |    ✓    |
+| [Binary tree level order][87]                                            |  [Tests][88] |    ✓    |
 
 
 
@@ -206,3 +207,6 @@ Chapter 8 - Stacks and Queues
 
 [85]: stacksandqueues/sunset.go
 [86]: stacksandqueues/sunset_test.go
+
+[87]: stacksandqueues/order.go
+[88]: stacksandqueues/order_test.go
