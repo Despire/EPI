@@ -76,7 +76,9 @@ Chapter 8 - Stacks and Queues
 | [Compute posting list][83]                                               |  [Tests][84] |    x    |
 | [Compute building with a sunset view][85]                                |  [Tests][86] |    ✓    |
 | [Binary tree level order][87]                                            |  [Tests][88] |    ✓    |
-
+| [Implement a circular queue][89]                                         |  [Tests][90] |    ✓    |
+| [Implement a queue using stacks][91]                                     |  [Tests][92] |    ✓    |
+| [Implement a queue with Max API][93]                                     |  [Tests][94] |    x    |
 
 
 [1]: arrays/dutchflagproblem.go
@@ -210,3 +212,12 @@ Chapter 8 - Stacks and Queues
 
 [87]: stacksandqueues/order.go
 [88]: stacksandqueues/order_test.go
+
+[89]: stacksandqueues/circular_queue.go
+[90]: unimplemented.md
+
+[91]: stacksandqueues/queue_stack.go
+[92]: unimplemented.md
+
+[93]: unimplemented.md
+[94]: unimplemented.md
