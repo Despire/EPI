@@ -86,6 +86,7 @@ Chapter 9 - Binary Trees
 | Problem                                                                  | Test         | Solved  |
 |--------------------------------------------------------------------------|:------------:|:-------:|
 | [Test if a binary tree is height-balanced][95]                           |  [Tests][96] |    ✓    |
+| [Test if a binary tree is symetric][97]                                  |  [Tests][98] |    ✓    |
 
 
 [1]: arrays/dutchflagproblem.go
@@ -231,3 +232,6 @@ Chapter 9 - Binary Trees
 
 [95]: binarytrees/height_balanced.go
 [96]: binarytrees/height_balanced_test.go
+
+[97]: binarytrees/symetric.go
+[98]: binarytrees/symetric_test.go
