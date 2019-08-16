@@ -80,6 +80,13 @@ Chapter 8 - Stacks and Queues
 | [Implement a queue using stacks][91]                                     |  [Tests][92] |    ✓    |
 | [Implement a queue with Max API][93]                                     |  [Tests][94] |    x    |
 
+Chapter 9 - Binary Trees
+---------------------------
+
+| Problem                                                                  | Test         | Solved  |
+|--------------------------------------------------------------------------|:------------:|:-------:|
+| [Test if a binary tree is height-balanced][95]                           |  [Tests][96] |    ✓    |
+
 
 [1]: arrays/dutchflagproblem.go
 [2]: arrays/dutchflagproblem_test.go
@@ -221,3 +228,6 @@ Chapter 8 - Stacks and Queues
 
 [93]: unimplemented.md
 [94]: unimplemented.md
+
+[95]: binarytrees/height_balanced.go
+[96]: binarytrees/height_balanced_test.go
