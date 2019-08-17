@@ -90,6 +90,7 @@ Chapter 9 - Binary Trees
 | [Compute LCA without parent node][99]                                    | [Tests][100] |    ✓    |
 | [Compute LCA with parent node][101]                                      | [Tests][102] |    x    |
 | [Sum the root-to-leaf paths][103]                                        | [Tests][104] |    ✓    |
+| [Find a root to leaf path with specified sum][105]                       | [Tests][106] |    ✓    |
 
 
 [1]: arrays/dutchflagproblem.go
@@ -247,3 +248,6 @@ Chapter 9 - Binary Trees
 
 [103]: binarytrees/sum.go
 [104]: binarytrees/sum_test.go
+
+[105]: binarytrees/leaf_sum.go
+[106]: binarytrees/leaf_sum_test.go
