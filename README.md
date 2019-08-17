@@ -87,6 +87,8 @@ Chapter 9 - Binary Trees
 |--------------------------------------------------------------------------|:------------:|:-------:|
 | [Test if a binary tree is height-balanced][95]                           |  [Tests][96] |    ✓    |
 | [Test if a binary tree is symetric][97]                                  |  [Tests][98] |    ✓    |
+| [Compute LCA without parent node][99]                                    | [Tests][100] |    ✓    |
+| [Compute LCA with parent node][101]                                      | [Tests][102] |    x    |
 
 
 [1]: arrays/dutchflagproblem.go
@@ -235,3 +237,9 @@ Chapter 9 - Binary Trees
 
 [97]: binarytrees/symetric.go
 [98]: binarytrees/symetric_test.go
+
+[99]:  binarytrees/lca.go
+[100]: binarytrees/lca_test.go
+
+[101]: unimplemented.md
+[102]: unimplemented.md
