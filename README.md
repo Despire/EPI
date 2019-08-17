@@ -89,6 +89,7 @@ Chapter 9 - Binary Trees
 | [Test if a binary tree is symetric][97]                                  |  [Tests][98] |    ✓    |
 | [Compute LCA without parent node][99]                                    | [Tests][100] |    ✓    |
 | [Compute LCA with parent node][101]                                      | [Tests][102] |    x    |
+| [Sum the root-to-leaf paths][103]                                        | [Tests][104] |    ✓    |
 
 
 [1]: arrays/dutchflagproblem.go
@@ -243,3 +244,6 @@ Chapter 9 - Binary Trees
 
 [101]: unimplemented.md
 [102]: unimplemented.md
+
+[103]: binarytrees/sum.go
+[104]: binarytrees/sum_test.go
