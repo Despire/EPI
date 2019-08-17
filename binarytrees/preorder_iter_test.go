@@ -14,11 +14,9 @@
 
 package binarytrees
 
-import (
-	"testing"
-)
+import "testing"
 
-func TestIterativeInOrder(t *testing.T) {
+func TestIterativePreorder(t *testing.T) {
 	tests := []struct {
 		root *Node
 		want []int
@@ -45,7 +43,7 @@ func TestIterativeInOrder(t *testing.T) {
 					Right: nil,
 				},
 			},
-			want: []int{1, 1, 2, 2, 2},
+			want: []int{2, 1, 1, 2, 2},
 		},
 		{
 			root: &Node{
@@ -72,7 +70,7 @@ func TestIterativeInOrder(t *testing.T) {
 					},
 				},
 			},
-			want: []int{15, 10, 5, 3},
+			want: []int{3, 5, 10, 15},
 		},
 		{
 			root: &Node{
@@ -108,7 +106,7 @@ func TestIterativeInOrder(t *testing.T) {
 					},
 				},
 			},
-			want: []int{-12, -3, -8, 0, -7, -1, -5, 5, -4, 10, 3},
+			want: []int{0, -3, -12, -8, -5, -1, -7, -4, 5, 3, 10},
 		},
 		{
 			root: &Node{
@@ -120,7 +118,7 @@ func TestIterativeInOrder(t *testing.T) {
 					Data: 0,
 				},
 			},
-			want: []int{-2, 1, 0},
+			want: []int{1, -2, 0},
 		},
 		{
 			root: &Node{
@@ -144,7 +142,7 @@ func TestIterativeInOrder(t *testing.T) {
 					Data: 6,
 				},
 			},
-			want: []int{0, -9, -5, 6, 6},
+			want: []int{6, -9, 0, -5, 6},
 		},
 		{
 			root: &Node{
@@ -159,7 +157,7 @@ func TestIterativeInOrder(t *testing.T) {
 					},
 				},
 			},
-			want: []int{-6, 0, 1516, 2},
+			want: []int{2, 1516, 0, -6},
 		},
 		{
 			root: &Node{
@@ -177,12 +175,13 @@ func TestIterativeInOrder(t *testing.T) {
 					},
 				},
 			},
-			want: []int{1, -3, -2, 0, -4},
+			want: []int{-2, -3, 1, -4, 0},
 		},
 	}
 
 	for _, test := range tests {
-		got := IterativeInorder(test.root)
+		got := IterativePreorder(test.root)
+
 		for i, node := range got {
 			if node.Data.(int) != test.want[i] {
 				t.Errorf("result mismatch. got:%v; want:%v", node.Data.(int), test.want[i])

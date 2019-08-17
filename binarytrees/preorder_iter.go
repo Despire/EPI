@@ -14,10 +14,10 @@
 
 package binarytrees
 
-// IterativeInorder returns a pre-order traversal
+// IterativePreorder returns a preorder traversal
 // for the given binary tree.
 // Takes O(N) time with O(h) space complexity.
-func IterativeInorder(root *Node) []*Node {
+func IterativePreorder(root *Node) []*Node {
 	pop := func(s *[]*Node) *Node {
 		r := (*s)[len(*s)-1]
 		*s = (*s)[:len(*s)-1]
@@ -31,14 +31,13 @@ func IterativeInorder(root *Node) []*Node {
 	curr := root
 	for len(stack) > 0 || curr != nil {
 		if curr != nil {
+			traverse = append(traverse, curr)
 			push(&stack, curr)
 			curr = curr.Left
 		} else {
 			curr = pop(&stack)
-			traverse = append(traverse, curr)
 			curr = curr.Right
 		}
 	}
-
 	return traverse
 }

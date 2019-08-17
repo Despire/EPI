@@ -92,6 +92,7 @@ Chapter 9 - Binary Trees
 | [Sum the root-to-leaf paths][103]                                        | [Tests][104] |    ✓    |
 | [Find a root to leaf path with specified sum][105]                       | [Tests][106] |    ✓    |
 | [Inorder traversal without recursion][107]                               | [Tests][108] |    ✓    |
+| [Preorder traversal without recursion][109]                              | [Tests][110] |    ✓    |
 
 
 [1]: arrays/dutchflagproblem.go
@@ -255,3 +256,6 @@ Chapter 9 - Binary Trees
 
 [107]: binarytrees/inorder_iter.go
 [108]: binarytrees/inorder_iter_test.go
+
+[109]: binarytrees/preorder_iter.go
+[110]: binarytrees/preorder_iter_test.go
