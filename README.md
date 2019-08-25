@@ -94,6 +94,7 @@ Chapter 9 - Binary Trees
 | [Inorder traversal without recursion][107]                               | [Tests][108] |    ✓    |
 | [Preorder traversal without recursion][109]                              | [Tests][110] |    ✓    |
 | [Compute the kth node in an inorder traversal][111]                      | [Tests][112] |    ✓    |
+| [Compute successor][113]                                                 | [Tests][114] |    ✓    |
 
 
 [1]: arrays/dutchflagproblem.go
@@ -263,3 +264,6 @@ Chapter 9 - Binary Trees
 
 [111]: binarytrees/kth_node_inorder.go
 [112]: binarytrees/kth_node_inorder_test.go
+
+[113]: binarytrees/successor.go
+[114]: binarytrees/successor_test.go
