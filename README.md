@@ -98,6 +98,7 @@ Chapter 9 - Binary Trees
 | [Implement inorder traversal with O(1) space][115]                       | [Tests][116] |    x    |
 | [Reconstruct a binary tree from preorder/inorder traversals][117]        | [Tests][118] |    ✓    |
 | [Reconstruct a binary tree from preorder with markers][119]              | [Tests][120] |    ✓    |
+| [Form a Linked lists from the leaves of a binary tree][121]              | [Tests][122] |    ✓    |
 
 
 [1]: arrays/dutchflagproblem.go
@@ -279,3 +280,6 @@ Chapter 9 - Binary Trees
 
 [119]: binarytrees/reconstruct_preorder.go
 [120]: binarytrees/reconstruct_preorder_test.go
+
+[121]: binarytrees/list_from_leaves.go
+[122]: binarytrees/list_from_leaves_test.go
