@@ -97,6 +97,7 @@ Chapter 9 - Binary Trees
 | [Compute successor][113]                                                 | [Tests][114] |    ✓    |
 | [Implement inorder traversal with O(1) space][115]                       | [Tests][116] |    x    |
 | [Reconstruct a binary tree from preorder/inorder traversals][117]        | [Tests][118] |    ✓    |
+| [Reconstruct a binary tree from preorder with markers][119]              | [Tests][120] |    ✓    |
 
 
 [1]: arrays/dutchflagproblem.go
@@ -275,3 +276,6 @@ Chapter 9 - Binary Trees
 
 [117]: binarytrees/reconstruct.go
 [118]: binarytrees/reconstruct_test.go
+
+[119]: binarytrees/reconstruct_preorder.go
+[120]: binarytrees/reconstruct_preorder_test.go
