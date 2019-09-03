@@ -14,6 +14,8 @@
 
 package binarytrees
 
+// ComputeExterior computes the exterior of a binary
+// tree. Takes O(N) time with O(h) space complexity.
 func ComputeExterior(root *Node) []*Node {
 	if root == nil {
 		return nil
