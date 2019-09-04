@@ -101,6 +101,7 @@ Chapter 9 - Binary Trees
 | [Form a Linked lists from the leaves of a binary tree][121]              | [Tests][122] |    ✓    |
 | [Compute the exterior of a binary tree][123]                             | [Tests][124] |    ✓    |
 | [Compute the right sibling tree][125]                                    | [Tests][126] |    ✓    |
+| [Implement locking in a binary tree][127]                                | [Tests][128] |    ✓    |
 
 
 [1]: arrays/dutchflagproblem.go
@@ -291,3 +292,6 @@ Chapter 9 - Binary Trees
 
 [125]: binarytrees/right_sibling.go
 [126]: unimplemented.md
+
+[127]: binarytrees/locking.go
+[128]: unimplemented.md
