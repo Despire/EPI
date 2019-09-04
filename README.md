@@ -100,6 +100,7 @@ Chapter 9 - Binary Trees
 | [Reconstruct a binary tree from preorder with markers][119]              | [Tests][120] |    ✓    |
 | [Form a Linked lists from the leaves of a binary tree][121]              | [Tests][122] |    ✓    |
 | [Compute the exterior of a binary tree][123]                             | [Tests][124] |    ✓    |
+| [Compute the right sibling tree][125]                                    | [Tests][126] |    ✓    |
 
 
 [1]: arrays/dutchflagproblem.go
@@ -287,3 +288,6 @@ Chapter 9 - Binary Trees
 
 [123]: binarytrees/exterior.go
 [124]: binarytrees/exterior_test.go
+
+[125]: binarytrees/right_sibling.go
+[126]: unimplemented.md
