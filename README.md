@@ -110,6 +110,7 @@ Chapter 10 - Heaps
 | Problem                                                                  | Test         | Solved  |
 |--------------------------------------------------------------------------|:------------:|:-------:|
 | [Merge sorted files][129]                                                | [Tests][130] |    ✓    |
+| [Sort an increasing-decresing array][131]                                | [Tests][132] |    ✓    |
 
 
 [1]: arrays/dutchflagproblem.go
@@ -306,3 +307,6 @@ Chapter 10 - Heaps
 
 [129]: heaps/sorted_files.go
 [130]: heaps/sorted_files_test.go
+
+[131]: heaps/inc_dec_array.go
+[132]: heaps/inc_dec_array_test.go
