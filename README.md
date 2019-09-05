@@ -104,6 +104,14 @@ Chapter 9 - Binary Trees
 | [Implement locking in a binary tree][127]                                | [Tests][128] |    ✓    |
 
 
+Chapter 10 - Heaps
+---------------------------
+
+| Problem                                                                  | Test         | Solved  |
+|--------------------------------------------------------------------------|:------------:|:-------:|
+| [Merge sorted files][129]                                                | [Tests][130] |    ✓    |
+
+
 [1]: arrays/dutchflagproblem.go
 [2]: arrays/dutchflagproblem_test.go
 
@@ -295,3 +303,6 @@ Chapter 9 - Binary Trees
 
 [127]: binarytrees/locking.go
 [128]: unimplemented.md
+
+[129]: heaps/sorted_files.go
+[130]: heaps/sorted_files_test.go
