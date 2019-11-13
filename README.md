@@ -1,4 +1,4 @@
-# Solutions for EPI
+# Solutions fo r EPI
 
 Chapter 5 - Arrays
 ------------------
